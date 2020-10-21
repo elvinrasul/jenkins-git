@@ -710,3 +710,94 @@ more 02_05_launch_sh.txt
 ls
 vim pipeline.txt
 more pipeline.txt
+ls
+more 02_02_first_job.txt
+more 02_03_parameterized.txt
+ls
+more 02_02_first_pipeline.txt
+touch jenkinsfile
+vim jenkinsfile
+ls
+git remote add origin https://github.com/elvinrasul/jenkins-git.git
+git init
+git branch
+ls
+git remote add origin https://github.com/elvinrasul/jenkins-git.git
+git branch -M main
+git commit -m "first commit"
+git remote add origin https://github.com/elvinrasul/jenkins-git.git
+git push -u origin main
+git barnch 
+git branch checkout
+git branch checkout master
+ls
+git push -u origin main
+git branch -M main
+git log
+git init
+git log
+git status
+git commit -m "all the reosurce"
+git log
+git status
+git add 
+git add .
+git status
+git add -m "new project"
+git branch -M main
+git remote add origin https://github.com/elvinrasul/jenkins-git.git
+git push -u origin main
+git status
+git log
+git bracnh checkout master
+git branch 
+git checkout master
+git add .
+git status
+git commit -m "jenkinsproject"
+git remote add elvinrasul https://github.com/elvinrasul/jenkins-git.git
+git push elvinrasul master
+ls
+vim jenkinsfile
+more jenkinsfile
+ls
+ls -ltr
+setup.txt
+touch setup.txt
+ls
+vim setupt.txt
+more setup.txt
+vim setup.txt
+vim setupt.txt
+vim setup.txt
+rm -f setupt.txt
+ls
+vim setup.txt
+more setup.txt.
+more setup.txt
+ls
+vim setup.txt
+/home/jenkins
+var/home/jenkins/
+ls
+/var/lib/jenkins/
+cd /var/lib/jenkins/
+ls
+cd ..
+cd..
+cd ..
+cd home
+ls
+cd ec2-user
+ls
+cd ..
+cd..
+cd ..
+ls
+exit
+ls -ltr
+ls ltr
+ls
+sudo su -
+ls
+exit

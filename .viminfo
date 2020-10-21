@@ -12,17 +12,17 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1602095010,,"wq!"
+|2,0,1603305214,,"wq!"
 :q!
-|2,0,1600721959,,"q!"
+|2,0,1603305147,,"q!"
+:q
+|2,0,1602874824,,"q"
 :wq
-|2,0,1600717554,,"wq"
+|2,0,1602100547,,"wq"
 :WQ!
 |2,0,1600717006,,"WQ!"
 :q!!
 |2,0,1600716771,,"q!!"
-:q
-|2,0,1599150927,,"q"
 :WQ
 |2,0,1599150918,,"WQ"
 
@@ -37,237 +37,273 @@
 # Registers:
 
 # File marks:
-'0  11  0  ~/jenkinsfile
-|4,48,11,0,1602095010,"~/jenkinsfile"
-'1  10  69  ~/pipeline.txt
-|4,49,10,69,1602007543,"~/pipeline.txt"
-'2  11  3  ~/02_02_first_pipeline.txt
-|4,50,11,3,1602006329,"~/02_02_first_pipeline.txt"
-'3  1  0  ~/pipeline.txt
-|4,51,1,0,1602006309,"~/pipeline.txt"
-'4  1  0  ~/pipeline.txt
-|4,52,1,0,1602006309,"~/pipeline.txt"
-'5  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,53,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
-'6  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,54,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
-'7  16  0  /var/lib/jenkins/scripts/launch.sh
-|4,55,16,0,1600889558,"/var/lib/jenkins/scripts/launch.sh"
-'8  10  60  /usr/lib/jenkins/scripts/launch.txt
-|4,56,10,60,1600722045,"/usr/lib/jenkins/scripts/launch.txt"
-'9  1  0  /usr/lib/jenkins/scripts
-|4,57,1,0,1600721959,"/usr/lib/jenkins/scripts"
+'0  17  15  ~/setup_d.txt
+|4,48,17,15,1603305214,"~/setup_d.txt"
+'1  1  0  /usr/lib/systemd/system/docker.service
+|4,49,1,0,1603305147,"/usr/lib/systemd/system/docker.service"
+'2  1  0  /usr/lib/systemd/system/docker.service
+|4,50,1,0,1603304379,"/usr/lib/systemd/system/docker.service"
+'3  17  15  ~/setup_d.txt
+|4,51,17,15,1603304134,"~/setup_d.txt"
+'4  1  0  ~/setup
+|4,52,1,0,1603303420,"~/setup"
+'5  33  26  ~/setup.txt
+|4,53,33,26,1602874824,"~/setup.txt"
+'6  33  26  ~/setup.txt
+|4,54,33,26,1602703841,"~/setup.txt"
+'7  26  45  ~/setup.txt
+|4,55,26,45,1602703373,"~/setup.txt"
+'8  26  45  ~/setup.txt
+|4,56,26,45,1602703373,"~/setup.txt"
+'9  26  45  ~/setup.txt
+|4,57,26,45,1602703373,"~/setup.txt"
 
 # Jumplist (newest first):
--'  11  0  ~/jenkinsfile
-|4,39,11,0,1602095010,"~/jenkinsfile"
--'  1  0  ~/jenkinsfile
-|4,39,1,0,1602095005,"~/jenkinsfile"
--'  10  69  ~/pipeline.txt
-|4,39,10,69,1602007543,"~/pipeline.txt"
--'  10  69  ~/pipeline.txt
-|4,39,10,69,1602007543,"~/pipeline.txt"
--'  1  0  ~/pipeline.txt
-|4,39,1,0,1602006431,"~/pipeline.txt"
--'  1  0  ~/pipeline.txt
-|4,39,1,0,1602006431,"~/pipeline.txt"
--'  11  3  ~/02_02_first_pipeline.txt
-|4,39,11,3,1602006329,"~/02_02_first_pipeline.txt"
--'  11  3  ~/02_02_first_pipeline.txt
-|4,39,11,3,1602006329,"~/02_02_first_pipeline.txt"
--'  11  3  ~/02_02_first_pipeline.txt
-|4,39,11,3,1602006329,"~/02_02_first_pipeline.txt"
--'  11  3  ~/02_02_first_pipeline.txt
-|4,39,11,3,1602006329,"~/02_02_first_pipeline.txt"
--'  1  0  ~/pipeline.txt
-|4,39,1,0,1602006309,"~/pipeline.txt"
--'  1  0  ~/pipeline.txt
-|4,39,1,0,1602006309,"~/pipeline.txt"
--'  1  0  ~/pipeline.txt
-|4,39,1,0,1602006309,"~/pipeline.txt"
--'  1  0  ~/pipeline.txt
-|4,39,1,0,1602006309,"~/pipeline.txt"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  17  16  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,17,16,1600889727,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  1  0  /var/lib/jenkins/scripts/fibonacci.sh
-|4,39,1,0,1600889713,"/var/lib/jenkins/scripts/fibonacci.sh"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  16  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,16,0,1600889608,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
--'  1  0  /var/lib/jenkins/scripts/launch.txt
-|4,39,1,0,1600889600,"/var/lib/jenkins/scripts/launch.txt"
+-'  17  15  ~/setup_d.txt
+|4,39,17,15,1603305214,"~/setup_d.txt"
+-'  1  0  /usr/lib/systemd/system/docker.service
+|4,39,1,0,1603305147,"/usr/lib/systemd/system/docker.service"
+-'  1  0  /usr/lib/systemd/system/docker.service
+|4,39,1,0,1603305147,"/usr/lib/systemd/system/docker.service"
+-'  1  0  /usr/lib/systemd/system/docker.service
+|4,39,1,0,1603304379,"/usr/lib/systemd/system/docker.service"
+-'  1  0  /usr/lib/systemd/system/docker.service
+|4,39,1,0,1603304379,"/usr/lib/systemd/system/docker.service"
+-'  17  15  ~/setup_d.txt
+|4,39,17,15,1603304134,"~/setup_d.txt"
+-'  17  15  ~/setup_d.txt
+|4,39,17,15,1603304134,"~/setup_d.txt"
+-'  17  15  ~/setup_d.txt
+|4,39,17,15,1603304134,"~/setup_d.txt"
+-'  17  15  ~/setup_d.txt
+|4,39,17,15,1603304134,"~/setup_d.txt"
+-'  1  0  ~/setup_d.txt
+|4,39,1,0,1603303444,"~/setup_d.txt"
+-'  1  0  ~/setup_d.txt
+|4,39,1,0,1603303444,"~/setup_d.txt"
+-'  1  0  ~/setup_d.txt
+|4,39,1,0,1603303444,"~/setup_d.txt"
+-'  1  0  ~/setup_d.txt
+|4,39,1,0,1603303444,"~/setup_d.txt"
+-'  1  0  ~/setup_d.txt
+|4,39,1,0,1603303444,"~/setup_d.txt"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  1  0  ~/setup
+|4,39,1,0,1603303420,"~/setup"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602874824,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  33  26  ~/setup.txt
+|4,39,33,26,1602703841,"~/setup.txt"
+-'  26  45  ~/setup.txt
+|4,39,26,45,1602703704,"~/setup.txt"
+-'  26  45  ~/setup.txt
+|4,39,26,45,1602703704,"~/setup.txt"
+-'  26  45  ~/setup.txt
+|4,39,26,45,1602703704,"~/setup.txt"
+-'  26  45  ~/setup.txt
+|4,39,26,45,1602703704,"~/setup.txt"
+-'  26  45  ~/setup.txt
+|4,39,26,45,1602703704,"~/setup.txt"
+-'  26  45  ~/setup.txt
+|4,39,26,45,1602703704,"~/setup.txt"
 
 # History of marks within files (newest to oldest):
 
+> ~/setup_d.txt
+	*	1603305212	0
+	"	17	15
+	^	17	16
+	.	18	0
+	+	18	0
+
+> /usr/lib/systemd/system/docker.service
+	*	1603305146	0
+	"	1	0
+
+> ~/setup
+	*	1603303419	0
+	"	1	0
+
+> ~/setup.txt
+	*	1602874822	0
+	"	33	26
+	^	33	27
+	.	34	0
+	+	26	46
+	+	28	39
+	+	29	14
+	+	30	34
+	+	34	0
+
+> ~/setupt.txt
+	*	1602703363	0
+	"	26	45
+	^	26	46
+	.	26	45
+	+	26	45
+
 > ~/jenkinsfile
-	*	1602095008	0
-	"	11	0
-	^	11	0
-	.	10	7
-	+	10	7
+	*	1602100545	0
+	"	10	12
+	^	10	13
+	.	10	12
+	+	14	7
+	+	4	28
+	+	6	45
+	+	10	12
 
 > ~/pipeline.txt
 	*	1602007541	0
@@ -371,43 +407,3 @@
 	^	14	1
 	.	14	0
 	+	14	0
-
-> ~/02_03_parameterized.txt
-	*	1600395485	0
-	"	8	11
-	^	8	12
-	.	7	10
-	+	13	0
-	+	6	6
-	+	7	10
-
-> ~/02_02_first_job.txt
-	*	1600370644	0
-	"	3	0
-	^	3	1
-	.	3	0
-	+	3	0
-
-> ~/second_job.txt
-	*	1600288424	0
-	"	3	0
-	^	3	1
-	.	3	0
-	+	3	0
-
-> ~/firstjob.txt
-	*	1600287913	0
-	"	3	0
-	^	3	1
-	.	2	2
-	+	3	0
-	+	2	2
-
-> ~/newproject/code1.java
-	*	1599150926	0
-	"	4	67
-	^	4	68
-	.	4	64
-	+	7	1
-	+	5	33
-	+	4	64

@@ -1,0 +1,17 @@
+#Adding docker for agents
+#1 Configure the target system docker for we/REST access
+# add the following to the start or ExecStart patameter of
+# /lib/systemd/system/docker.service
+-H tcp://0.0.0.0:4243
+
+# then restart the docker service
+systemctl daemon-reload
+systemctl restart docker 
+
+#2 Now we can configure jenkins to reach out the new
+# docker worker. We will need a docker image to point to
+# for the agent:
+jenkins/jnlp-slave
+
+# And then we can create a new porject/job and add a docker 
+# resource to it
